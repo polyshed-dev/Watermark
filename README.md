@@ -1,4 +1,4 @@
-![Download count](https://img.shields.io/github/downloads/polyshed-dev/Watermark/total)
+![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/polyshed-dev/Watermark/Watermark.dll?displayAssetName=false&style=for-the-badge)
 # Description
 Extremely simple SCP:SL Exiled plugin that displays a permanent hint on screen, useful for having your server name as a watermark on screen so it shows up in clips and stuff.
 
