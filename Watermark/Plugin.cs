@@ -12,6 +12,8 @@ namespace Watermark
     public override string Author => "@polyshed.";
     public override Version Version => new Version(1, 0, 0);
 
+    private static readonly Tag tagWatermark = new Tag();
+
     public override void OnEnabled()
     {
       Exiled.Events.Handlers.Player.Verified += OnVerified;
@@ -21,7 +23,6 @@ namespace Watermark
     public void OnVerified(VerifiedEventArgs ev)
     {
       RueDisplay watermarkDisplay = RueDisplay.Get(ev.Player);
-      Tag tagWatermark = new Tag();
       BasicElement watermark = new BasicElement(Config.Position, Config.Text);
       watermarkDisplay.Show(tagWatermark,  watermark);
     }
