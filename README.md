@@ -1,4 +1,4 @@
-[![GitHub Downloads (all assets, all releases)]([https://img.shields.io/github/downloads/polyshed-dev/Watermark/total](https://img.shields.io/github/downloads/polyshed-dev/Watermark/total))](https://img.shields.io/github/downloads/polyshed-dev/Watermark/total)
+[Download count](https://img.shields.io/github/downloads/polyshed-dev/Watermark/total)
 # Description
 Extremely simple SCP:SL Exiled plugin that displays a permanent hint on screen, useful for having your server name as a watermark on screen so it shows up in clips and stuff.
 
