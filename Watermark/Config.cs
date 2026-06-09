@@ -10,7 +10,7 @@ namespace Watermark
         public bool IsEnabled { get; set; } = true;
         public bool Debug { get; set; } = false;
         [Description("The text to display as the watermark. Please use <color=#FFFFFF> even if you want the hint to be white.")]
-        public string Text { get; set; } = "your-server-name";
+        public string Text { get; set; } = "<color=#FFFFFF>your-server-name</color>";
         [Description("The vertical position of the watermark text.")]
         public float Position { get; set; }
     }
