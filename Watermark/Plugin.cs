@@ -18,20 +18,21 @@ namespace Watermark
     public override Version RequiredExiledVersion { get; } = new Version(9, 14, 2);
 
     private static readonly Tag tagWatermark = new("watermarkElement");
+    private BasicElement watermark;
     
-    private static readonly BasicElement watermark = new BasicElement(Instance.Config.Position, Instance.Config.Text);
 
     public override void OnEnabled()
     {
-      Exiled.Events.Handlers.Player.Verified += OnVerified;
       Instance = this;
+      Exiled.Events.Handlers.Player.Verified += OnVerified;
+      watermark = new BasicElement(Instance.Config.Position, Instance.Config.Text);
       base.OnEnabled();
     }
 
     public void OnVerified(VerifiedEventArgs ev)
     {
       RueDisplay watermarkDisplay = RueDisplay.Get(ev.Player);
-      watermarkDisplay.Show(tagWatermark,  watermark);
+      watermarkDisplay.Show(tagWatermark, watermark);
     }
 
     public override void OnDisabled()
