@@ -1,4 +1,4 @@
-# SpectatorListRueI ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/polyshed-dev/Watermark/total)
+# Watermark ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/polyshed-dev/Watermark/total)
 Simple [EXILED](https://github.com/ExMod-Team/EXILED) plugin that displays a permanent hint on screen using the [RueI](https://github.com/pawslee/RueI) hint framework. It can be useful as a watermark for server owners.
 # Depencencies
 - EXILED `9.14.2`: https://github.com/ExMod-Team/EXILED
